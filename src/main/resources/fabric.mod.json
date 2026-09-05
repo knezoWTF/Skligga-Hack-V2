@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "skliggahack",
+  "version": "0.1.0",
+
+  "name": "Skligga Hack",
+  "description": "SKLIGGAS ON TOP EZZZZZZZZ",
+  "authors": [
+    "anker"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/femhack/Skligga-Hack/"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.skliggahack.Main"
+    ]
+  },
+  "mixins": [
+    "skliggahack.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
